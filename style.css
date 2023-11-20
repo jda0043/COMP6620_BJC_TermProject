@@ -34,7 +34,7 @@ body {
     text-align: center;
     color: #ffffff;
     font-size: 1.25rem;
-    
+    padding-left: 5px;
   }
 
   .bg-img2 {
@@ -180,6 +180,22 @@ body {
   }
 
   .SnapButton:hover{
+    box-shadow: 0 8px 12px 0 rgba(232, 119, 34, 0.6);
+  }
+
+  .ReturnHome {
+    color: white;
+    background-color: rgb(12,35,64);
+    text-align: center;
+    text-decoration:solid;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 8px 12px 0 rgba(232, 119, 34, 0.2);
+    border-radius: 25px;
+  }
+
+  .ReturnHome:hover {
     box-shadow: 0 8px 12px 0 rgba(232, 119, 34, 0.6);
   }
 
