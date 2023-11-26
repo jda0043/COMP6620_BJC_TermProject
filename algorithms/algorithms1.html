@@ -14,8 +14,9 @@
           <button class="menuOff" onclick="turnOFFOverlay()" value= "0">&#x2715;</button>
           
           <a href="../index.html">Home</a>
-          <a href="algorithms1.html"onclick="turnOFFOverlay()">Activity 1</a>
-          <a href="algorithms2.html"onclick="turnOFFOverlay()">Activity 2</a>
+          <a href="algorithms1.html"onclick="turnOFFOverlay()">Draw a Square</a>
+          <a href="algorithms2.html"onclick="turnOFFOverlay()">Draw a Polygon</a>
+          <a href="algorithms3.html"onclick="turnOFFOverlay()">Draw nested Polygons</a>
         
         </div>
       </div>
@@ -33,17 +34,31 @@
            <div class="Programming_Container">
             <div class="Programming_Section">
               <div class="Programming_Section_header">
-                <h3>Header </h3>
+                <h3>Drawing a square with Snap! </h3>
                 <img src="../assets/programming_activities/alonzo.png" alt="Avatar" class="avatar_index" style="max-width:60px;"></div>
                 
-                <p>...  </p>
-                <p>... </p>
+                <p>This is an imperitive algorithm; the steps are explicitly stated.  </p>
+                <p>The square is drawn with it's center at the origin (0,0). </p>
                 
+                <p>DRAW_SQAURE(size):</p>
+                <p>1. r = size / 2. This calculates the 'radius' (half of the size).</p>
+                <p>2. move to point (r,r). This moves to the top right corner of the square.</p>
+                <p>3. draw to point (r,-r). Draw a line to the bottom right corner.</p>
+                <p>4. draw to point (-r,-r). Draw a line to the bottom left corner</p>
+                <p>5. draw to point (-r,r). Draw a line to the top left corner.</p>
+                <p>6. draw to point (r,r). Draw a line to the top right corner (close the square).</p>
 
-                <p>1. </p>
-                <p>&emsp;&emsp;&emsp; A. </p>
+                <div class="hint">
+                  <a onclick="document.getElementById('id01').style.display='block'" class="SnapButton">Click for Hint</a>
+                </div>
+                <div id="id01" class="modal">
+                  <p><img src="../assets/algorithm_activities/DRAW_SQUARE HINT.png" alt="Avatar" class="hint" style="max-width:60%;"></p>
+                </div>
+                
+                <p>Expected Output</p>
+                <p><img src="../assets/algorithm_activities/DRAW_SQUARE OUTPUT.png" alt="Avatar" class="avatar_index" style="max-width:60%;"></p>
 
-                <p><img src="../assets/programming_activities/programming_1_blocks.png" alt="Avatar" class="avatar_index" style="max-width:60%;"></p>
+                <a href="/" download="DRAW_SQUARE.xml" class="SnapButton">Download the Snap! example</a>
             
                 <a href="https://snap.berkeley.edu/snap/snap.html" target="_blank" class="SnapButton">Try it out with Snap!</a>
                 <div class="Nav_buttons">

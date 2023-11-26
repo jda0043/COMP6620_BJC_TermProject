@@ -34,36 +34,30 @@
            <div class="Programming_Container">
             <div class="Programming_Section">
               <div class="Programming_Section_header">
-                <h3>Draw a Polygon with Snap!</h3>
+                <h3>Draw nested Polygons with Snap!</h3>
                 <img src="../assets/programming_activities/alonzo.png" alt="Avatar" class="avatar_index" style="max-width:60px;"></div>
                 
-                <p>DRAW_POLYGON(size, vertices)</p>
-                <p>1. radius = size / 2. Calculates the 'radius' (half of the circumcircle diameter)</p>
-                <p>2. for v in 1.. (vertices+1)</p>
-                <p>3. angle = 180 * ((2 * v / vertices) + ((1 / 2) - (1 / vertices))). Calculates the angle coordinates of the next vertex.</p>
-                <p>4. x = radius * cos(angle). Calculates the x-coordinate of the next vertex.</p>
-                <p>5. y = radius * sin(angle). Calculates the y-coordinate of the next vertex.</p>
-                <p>6. if v == 1:</p>
-                <p>&emsp;&emsp;&emsp;  Move to point(x,y)</p>
-                <p>    else:</p>
-                <p>&emsp;&emsp;&emsp;  draw to point(x,y)</p>
+                
+                <p>1. The radius of each polygon should be equal to its predecessor.</p>
+                <p>2. The polygons should be drawn with their centers at the origin (0,0).</p>
+                
    
 
                 <div class="hint">
                   <a onclick="document.getElementById('id01').style.display='block'" class="SnapButton">Click for Hint</a>
                 </div>
                 <div id="id01" class="modal">
-                  <p><img src="../assets/algorithm_activities/DRAW_POLYGON HINT.png" alt="Avatar" class="hint" style="max-width:60%;"></p>
+                  <p><img src="../assets/algorithm_activities/DRAW_NESTED_POLYGONS HINT.png" alt="Avatar" class="hint" style="max-width:60%;"></p>
                 </div>
 
                 <p>Expected output:</p>
-                <p><img src="../assets/algorithm_activities/DRAW_POLYGON OUTPUT.png" alt="Avatar" class="avatar_index" style="max-width:60%;"></p>
-        
-                <a href="/" download="DRAW_POLYGON.xml" class="SnapButton">Download the Snap! example</a>
+                <p><img src="../assets/algorithm_activities/DRAW_NESTED_POLYGONS OUTPUT.png" alt="Avatar" class="avatar_index" style="max-width:60%;"></p>
+                
+                <a href="/" download="DRAW_NESTED_POLYGON.xml" class="SnapButton">Download the Snap! example</a>
 
                 <a href="https://snap.berkeley.edu/snap/snap.html" target="_blank" class="SnapButton">Try it out with Snap!</a>
                 <div class="Nav_buttons">
-                  <a href="algorithms1.html" id="BWD">&#8592;</a><a href="algorithms3.html" id="FWD">&#8594;</a>
+                  <a href="algorithms2.html" id="BWD">&#8592;</a><a href="final_page.html" id="FWD">&#8594;</a>
                 </div>
             </div>
             
